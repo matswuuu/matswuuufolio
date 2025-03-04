@@ -1,0 +1,43 @@
+.jobs-list {
+    margin: 50px auto;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.job {
+    min-width: 15rem;
+    flex: 1;
+
+    /*display: grid;*/
+    /*grid-template-columns: repeat(2, 1fr);*/
+
+    border-radius: var(--secondary-border-radius);
+}
+
+.job * {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+/*.project-logo, .project-title {*/
+/*    grid-row: 1;*/
+/*}*/
+
+/*.project-description {*/
+/*    grid-row: 2*/
+/*}*/
+
+/*.project-link {*/
+/*    grid-row: 3*/
+/*}*/
