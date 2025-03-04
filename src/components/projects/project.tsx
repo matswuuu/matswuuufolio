@@ -1,5 +1,3 @@
-import "./styles/project.css";
-
 type ProjectProps = {
 	title: string;
 	description: string;
@@ -10,16 +8,13 @@ type ProjectProps = {
 const Project = (props: ProjectProps) => {
 	return (
 		<div className="project border">
-			{/*<Link to={link}>*/}
-				{props.logo &&
-					(<div className="project-logo">
-						<img src={props.logo} alt="logo"/>
-					</div>)
-				}
-				<div className="project-title">{props.title}</div>
-				<div className="project-description">{props.description}</div>
-				<div className="project-link">{props.link}</div>
-			{/*</Link>*/}
+			{props.logo &&
+				(<div className="project-logo">
+					<img src={props.logo} alt="logo"/>
+				</div>)
+			}
+			<a href={props.link} className="project-title">{props.title}</a>
+			<div className="project-description">{props.description}</div>
 		</div>
 	);
 };

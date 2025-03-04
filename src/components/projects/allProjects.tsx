@@ -1,4 +1,3 @@
-import "./styles/allProjects.css";
 import Project from "./project.tsx"
 import "./projects-list.css"
 import PROJECTS from "../../data/projects.ts";

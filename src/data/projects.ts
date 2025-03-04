@@ -8,7 +8,8 @@ type Project = {
 const PROJECTS: Project[]  = [
     {
         name: "BeeSwarm",
-        description: "Адаптация популярной игры из Roblox"
+        description: "Адаптация популярной игры из Roblox",
+        link: "https://cristalix.gg/info/minigames/beeswarm"
     },
     {
         name: "Sprukkit",
@@ -34,7 +35,8 @@ const PROJECTS: Project[]  = [
     },
     {
         name: "Discord Auto Poster",
-        description: "Программа для автоматической отправки сообщений в Discord"
+        description: "Программа для автоматической отправки сообщений в Discord",
+        link: "https://github.com/matswuuu/Discord-AutoPost"
     },
     {
         name: "Sponge Counter",

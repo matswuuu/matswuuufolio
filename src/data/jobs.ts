@@ -1,7 +1,7 @@
 const JOBS = [
     {
         name: "Cristalix",
-        description: "",
+        description: "Игровой маркетплейс",
         role: "Разработчик",
         since: new Date(2024, 1, 2),
         to: new Date(),

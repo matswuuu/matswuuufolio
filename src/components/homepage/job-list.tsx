@@ -1,8 +1,3 @@
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
-
-import Card from "../common/card.tsx";
-
-import "./styles/works.css";
 import "../projects/projects-list.css"
 import "./jobs-list.css"
 
