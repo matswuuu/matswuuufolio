@@ -4,7 +4,6 @@ import {faGithub, faTelegram } from "@fortawesome/free-brands-svg-icons";
 import "./styles/homepage.css";
 import AllProjects from "../components/projects/allProjects.tsx";
 import Footer from "../components/common/footer.tsx";
-import JobList from "../components/homepage/job-list.tsx";
 import BIO from "../data/bio.ts";
 import selfImage from "../assets/self.png"
 import {faMailBulk} from "@fortawesome/free-solid-svg-icons";
